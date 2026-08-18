@@ -1,0 +1,298 @@
+/* =====================================
+   PANEL ADMINISTRACIÓN
+   Bolsas Kraft
+   ===================================== */
+
+
+/* RESET BÁSICO */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f5f1eb;
+
+    color: #333;
+
+}
+
+
+
+/* =====================================
+   HEADER ADMIN
+   ===================================== */
+
+
+header {
+
+    background: #6b4226;
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+
+}
+
+
+header h1 {
+
+    margin: 0 0 10px 0;
+
+}
+
+
+header a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+
+/* =====================================
+   CONTENEDOR PRINCIPAL
+   ===================================== */
+
+
+main {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* =====================================
+   TABLAS
+   ===================================== */
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+}
+
+
+
+th {
+
+    background: #eee;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+
+
+td {
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+/* =====================================
+   FORMULARIOS
+   ===================================== */
+
+
+form div {
+
+    margin-bottom: 18px;
+
+}
+
+
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+
+}
+
+
+
+input,
+textarea,
+select {
+
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+
+}
+
+
+
+textarea {
+
+    resize: vertical;
+
+}
+
+
+
+/* =====================================
+   BOTONES
+   ===================================== */
+
+
+button {
+
+    background: #6b4226;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+
+button:hover {
+
+    opacity: .85;
+
+}
+
+
+
+/* LINKS */
+
+a {
+
+    color: #6b4226;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.imagen-producto {
+
+    width:80px;
+    height:80px;
+    object-fit:contain;
+
+}
+
+
+.estado {
+
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+
+}
+
+
+.estado.activo {
+
+    background:#d4edda;
+
+}
+
+
+.estado.inactivo {
+
+    background:#f8d7da;
+
+}
+
+
+
+.btn {
+
+    padding:6px 12px;
+    border-radius:5px;
+    text-decoration:none;
+    color:white;
+    font-size:13px;
+
+}
+
+
+.btn.editar {
+
+    background:#8b5a2b;
+
+}
+
+
+.btn.eliminar {
+
+    background:#b22222;
+
+}
+
+.alerta {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.alerta.exito {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
